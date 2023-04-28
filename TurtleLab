@@ -6,15 +6,15 @@ money = float
 #Choose money
 def choose_money():
     choice = input("How do you want your money? Enter 'A' for 2-$20, 'B' for 4-$10, or 'C' for 8-$5: ")
-    
-    if choice == 'A':
-        return "Two twenty-dollar bills"
-    elif choice == 'B':
-        return "Four ten-dollar bills"
-    elif choice == 'C':
-        return "Eight five-dollar bills"
-    else:
-        print("Invalid choice. Please try again.")
+    while choice != "A" or choice != "B" or choice != "C":
+        if choice == 'A':
+            return "Two twenty-dollar bills"
+        elif choice == 'B':
+            return "Four ten-dollar bills"
+        elif choice == 'C':
+            return "Eight five-dollar bills"
+        else:
+            print("Invalid choice. Please try again.")
         return choose_money()
         
 #Main
