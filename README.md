@@ -1,5 +1,5 @@
 # ITCS1140
-Group Project
+#Group Project
 Mr. Turtle needs to get to location x, y however he needs to make some stops along the way. 
 He has to go and get breakfast from a random location x,y before his appointment. 
 After that he needs to stop and pick up some money from the bank $40. 
